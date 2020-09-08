@@ -10,7 +10,7 @@ namespace Shell {
             // TODO: Load plugins
             
             while (true) {
-                basePlugin.Run("indicator");
+                basePlugin.InternalRun("indicator");
                 var command = Console.ReadLine();
                 if (command == string.Empty) continue;
 

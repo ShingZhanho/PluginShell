@@ -15,17 +15,23 @@ namespace Shell.InternalPlugins {
                 case "help":
                     ShowHelp();
                     break;
-                case "indicator":
-                    ShowInputIndicator();
-                    break;
                 case "exit":
                     Exit(arguments);
                     break;
             }
         }
 
-        public override void InternalRun(string args) {
-            
+        public override void InternalRun(string arg) {
+            var arguments = string.Empty;
+            for (var i = 1; i < arg.Split(' ').Length - 1; i++) {
+                arguments += arg.Split(' ')[i] + " ";
+            }
+
+            switch (arg.Split(' ')[0]) {
+                case "indicator":
+                    ShowInputIndicator();
+                    break;
+            }
         }
 
         public override void ShowHelp() {

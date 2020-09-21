@@ -1,5 +1,5 @@
 ﻿namespace Shell.Security {
-    public class Cryptography {
+    public static class Cryptography {
         
     }
 }

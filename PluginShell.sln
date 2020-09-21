@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell.Security", "Shell.Sec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{E9985788-5547-461E-BFFC-EDC47D83AF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell.Plugins", "Shell.Plugins\Shell.Plugins.csproj", "{711BAC9A-F803-4322-9567-3ADF6D112425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell.Settings", "Shell.Settings\Shell.Settings.csproj", "{E0242229-BA0D-479D-B27F-47DDD76D9653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{E9985788-5547-461E-BFFC-EDC47D83AF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9985788-5547-461E-BFFC-EDC47D83AF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9985788-5547-461E-BFFC-EDC47D83AF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711BAC9A-F803-4322-9567-3ADF6D112425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711BAC9A-F803-4322-9567-3ADF6D112425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711BAC9A-F803-4322-9567-3ADF6D112425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711BAC9A-F803-4322-9567-3ADF6D112425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0242229-BA0D-479D-B27F-47DDD76D9653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0242229-BA0D-479D-B27F-47DDD76D9653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0242229-BA0D-479D-B27F-47DDD76D9653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0242229-BA0D-479D-B27F-47DDD76D9653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

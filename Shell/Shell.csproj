@@ -42,10 +42,23 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\Shell.Plugins\Shell.Plugins.csproj">
+        <Project>{711bac9a-f803-4322-9567-3adf6d112425}</Project>
+        <Name>Shell.Plugins</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Shell.Security\Shell.Security.csproj">
         <Project>{936dec7c-10a1-4b7c-bdf5-427741947053}</Project>
         <Name>Shell.Security</Name>
       </ProjectReference>
+      <ProjectReference Include="..\Shell.Settings\Shell.Settings.csproj">
+        <Project>{e0242229-ba0d-479d-b27f-47ddd76d9653}</Project>
+        <Name>Shell.Settings</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Config\default_shellConfig.ini" CopyToOutputDirectory="Always" />
+      <Content Include="Config\pluginAlias.ini" CopyToOutputDirectory="Always"/>
+      <Content Include="Config\shellConfig.ini" CopyToOutputDirectory="Always"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

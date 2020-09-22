@@ -1,7 +1,11 @@
 ﻿namespace Shell.Security {
-    public class SecurityCLI {
+    public class SecurityCLI : Plugins.PluginBaseCLI {
         public SecurityCLI() {
             // Initialize
+        }
+
+        public override void Run() {
+            
         }
     }
 }

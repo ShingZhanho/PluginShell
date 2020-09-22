@@ -46,6 +46,10 @@
         <Project>{e0242229-ba0d-479d-b27f-47ddd76d9653}</Project>
         <Name>Shell.Settings</Name>
       </ProjectReference>
+      <ProjectReference Include="..\Shell.Utils\Shell.Utils.csproj">
+        <Project>{0cd3c575-1f4b-4fc6-b00e-5a395d76eff3}</Project>
+        <Name>Shell.Utils</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

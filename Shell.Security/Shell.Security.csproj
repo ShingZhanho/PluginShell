@@ -42,6 +42,12 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="SecurityCLI.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Shell.Plugins\Shell.Plugins.csproj">
+        <Project>{711bac9a-f803-4322-9567-3adf6d112425}</Project>
+        <Name>Shell.Plugins</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.

@@ -12,6 +12,9 @@ namespace Shell.Utils {
             ErrorBlockForeColor = _getConsoleColor("shAppearance.errorBlockForeColor");
             ErrorBlockBackColor = _getConsoleColor("shAppearance.errorBlockBackColor");
             ErrorMsgForeColor = _getConsoleColor("shAppearance.errorMsgForeColor");
+            WarningBlockForeColor = _getConsoleColor("shAppearance.warningBlockForeColor");
+            WarningBlockBackColor = _getConsoleColor("shAppearance.warningBlockBackColor");
+            WarningMsgForeColor = _getConsoleColor("shAppearance.warningMsgForeColor");
         }
         
         public ConsoleColor ForeColor { get; set; }

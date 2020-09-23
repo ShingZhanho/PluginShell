@@ -44,6 +44,7 @@
     <ItemGroup>
         <Compile Include="SettingsReader.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SettingsWriter.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
